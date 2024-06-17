@@ -1,7 +1,7 @@
 import * as core from '@actions/core';
 import path from 'path';
 import fs from 'fs';
-import { Xcode } from 'pbxproj-dom/xcode';
+import { Xcode } from '@mmbt/pbxproj-dom/xcode';
 import plist from 'plist';
 import { uniq as unique, flattenDeep } from 'lodash';
 
